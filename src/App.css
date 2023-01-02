@@ -15,7 +15,7 @@
   border: 5px solid grey;
   opacity: 0.6;
   width: 400px;
-  height: 900px;
+  height: 700px;
   margin: 20px;
   color: rgb(21, 56, 89);
   border-radius: 10px;
@@ -65,13 +65,10 @@ margin-top: 50px;
 #btn-edit{
   background-color: #FF6D58;
   border-radius: 10px;
-margin-left: 100px;
 }
 #btn-delete{
   background-color: #FF6D58;
   border-radius: 10px;
-margin-left: -100px;
-
 }
 #edit-m{
   text-align: center;
@@ -114,6 +111,35 @@ margin-top: 50px;
   background-color: #7067B2;
 }
 
+.regarder{
+  display: flex;
+  justify-content: space-around;
 
+}
+.telecharger{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.ou{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+#nav{
+color: white;
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/5e48e7b6-350d-48d9-96d6-de8ca173c89f/88f901dd-9ba0-4b23-843a-3107807f1c41/TN-fr-20221219-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-color: #ffffff;
+  opacity: 0.6;
+}
+#view_bt{
+  background-color: #FF6D58;
+  border-radius: 10px;
+}
+#btn{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 35px;
+}
 
 

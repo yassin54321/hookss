@@ -6,7 +6,7 @@ const MoviesList = ({ data ,handleDelete,handleEdit}) => {
   return (
     <div className='movies'>
       {
-        React.Children.toArray(data.map(el =><MovieCards movie={el} handleDelete={handleDelete} handleEdit={handleEdit}/>))
+        React.Children.toArray(data.map(el =><MovieCards movie={el} handleDelete={handleDelete} handleEdit={handleEdit} />))
       }
     </div>
   )
